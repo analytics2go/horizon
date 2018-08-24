@@ -41,5 +41,5 @@ print('Shipping Costs for 35 Books is $2.75 per Book: '+
 print('Total Wholesale Cost for 40 copies:   '+
       '${:,.2f}'.format(total_wholesale_amount))
 print('Total Wholesale Cost with 10% Discount: '+
-      '${:,.2f}'.format(savings) + 'Savings, Brings Total Cost to: ' +
+      '${:,.2f}'.format(savings) + ' Savings, Brings Total Cost to: ' +
       '${:,.2f}'.format(total_whlse_wdiscount))
