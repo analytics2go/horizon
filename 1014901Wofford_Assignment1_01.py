@@ -7,6 +7,7 @@
 # -----------------------------------------
 
 # Prompt the user to enter a Celsius temperature
+print('\n')
 celsius = input('Hello, please enter a temperature in Celsius:')
 
 # Display what the user has entered for the Celsius temperature

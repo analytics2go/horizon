@@ -3,11 +3,8 @@
 #
 # Program calculates and displays wholesale price for 40 copies
 # of books for the following problem:
-#
-# The cover price of a book is $25, but bookstores get a 10% discount.
-# Shipping costs $2  for the first five copies and 2.75 cents for
-# all rest of copies.
-
+#   The cover price of a book is $25, but bookstores get a 10% discount.
+#   Shipping costs $2  for the first five copies and 2.75 cents for all rest of copies.
 
 # using .format to format string price
 book_price = 25
@@ -31,6 +28,7 @@ savings = total_wholesale_amount * percentage
 total_whlse_wdiscount = total_wholesale_amount - savings
 
 # print the information
+print('\n')
 print('Book Cover Price: '+'${:,.2f}'.format(book_price))
 print('Bookstores get 10% discount')
 # print('Savings: '+'${:,.2f}'.format(savings))
