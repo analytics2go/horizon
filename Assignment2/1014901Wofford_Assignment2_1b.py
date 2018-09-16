@@ -1,4 +1,4 @@
-# CPSC-442-11/Python  - Assignment 1 Problem b
+# CPSC-442-11/Python  - Assignment 2 Problem b
 # Author:  Wofford, Juana 1014901
 #
 # Program prompts the user
