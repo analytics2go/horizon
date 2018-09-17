@@ -13,10 +13,9 @@
 value_list = [1,3,2,5,1,3,7,6,2,3]
 
 # display the list with duplicates
-print('list with duplicate values {}'.format(value_list))
+print('\nInput: {}'.format(value_list))
 
 # use the set function on the list
 # sets are like lists but don't allow for duplicates
-
 value_list_nodups = set(value_list)
-print('list with no duplicate values {}'.format(value_list_nodups))
+print('Output: {}'.format(value_list_nodups))

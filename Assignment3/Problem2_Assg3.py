@@ -20,6 +20,8 @@ def main():
     print('Input String: ')
     print_list(starting_string)  # print original list
     reverse(starting_string)
+#   y = ['[0,1,1],[1,0,1],[0,0,0]]']
+    invert(starting_string)
 
 
 def reverse(my_string):
@@ -32,21 +34,19 @@ def reverse(my_string):
     print_list(y)
 
 
-#print('list with duplicate values {}'.format(value_list))
+def invert(my_string):
+    inverted =''.join(reversed(my_string))
+    print('Reveresed - ', inverted)   # 1st reverse
+    for x in inverted:
+        if x == '1':
+           print('hi')
 
-#def invert(my_string):
-
-s = "[1,1,0],[1,0,1],[0,0,0]"
-print('split: {}'.format(s.split()))
 
 
 # funciton to print list
 def print_list(o):
     for i in o: print(i, end=' ', flush=True)
     print('\n')
-
-
-
 
 
 

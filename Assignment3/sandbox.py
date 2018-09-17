@@ -1,12 +1,12 @@
-def uncommonFromSentences(self, A, B):
-    count = {}
-    for word in A.split():
-        count[word] = count.get(word, 0) + 1
-    for word in B.split():
-        count[word] = count.get(word, 0) + 1
+from itertools import groupby
 
-    # Alternatively:
-    # count = collections.Counter(A.split())
-    # count += collections.Counter(B.split())
+ds = [1,1,2,3,3,4,4,8,8]
+keys = []
+groups = []
 
-    return [word for word in count if count[word] == 1]
+for k,g in groupby(ds):
+    keys.append(k)
+    groups.append(list(g))
+
+# keys (unique elements)
+print('keys ',keys)
