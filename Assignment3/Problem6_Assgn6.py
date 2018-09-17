@@ -1,5 +1,5 @@
 # ----------------------------------------------
-# CPSC-442-11/Python  - Assignment 3 Problem 1
+# CPSC-442-11/Python  - Assignment 3 Problem 6
 # Author:  Wofford, Juana 1014901
 # Problem 6
 # Given an array of strings, group anagrams together.
@@ -15,12 +15,11 @@ Output: [   ["ate","eat","tea"],   ["nat","tan"],   ["bat"] ]
 # from the iterable
 from itertools import groupby
 
-
 def groupAnagramWords(inlist):
-# inlist is the iterable data set
-# looping through the keys and the groups of data (inlist)
-# then using groupby to loop through the sorted data
-    x =  [list(group) for key, group in
+    # inlist is the iterable data set
+    # looping through the keys and the groups of data (inlist)
+    # then using groupby to loop through the sorted data
+    x = [list(group) for key, group in
                 groupby(sorted(inlist, key = sorted), sorted)]
     return x
 

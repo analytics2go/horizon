@@ -1,5 +1,5 @@
 # ----------------------------------------------
-# CPSC-442-11/Python  - Assignment 3 Problem 1
+# CPSC-442-11/Python  - Assignment 3 Problem 7
 # Author:  Wofford, Juana 1014901
 # Problem 7
 # Given an sorted array of integers. Every element appears
@@ -17,10 +17,8 @@ Output: 2
 Example 2:
 Input: [3,3,7,7,10,11,11]
 Output: 10
-
  """
 # -------------------------------------------
-
 # for each element in the list, it is
 # counted to see number of times the element
 # occurs.  if element occurs only 1 time then

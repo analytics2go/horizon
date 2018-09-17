@@ -15,7 +15,7 @@ Input:
 Output:
 ["100 www.facebook.com", "100 facebook.com", "100 com"]
 """
-
+#----------------------------------------------------------------
 
 def domainhit(slist):
     slist = dict(slist)    # convert list to dictionary
