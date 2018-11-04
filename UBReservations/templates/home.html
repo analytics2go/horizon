@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    {%for person in person %}
+        <div class="firstname">
+            <a href="{% url 'person_detail' person.personid %}">
+                <h3>First Name:{{ person.firstname|capfirst}}</h3>
+            </a>
+            <p>Last Name:{{ person.lastname }}</p>
+            <p>Email: {{ person.email}}</p>
+           <p class="hidden">Person Type: {{ person.persontype}}</p>
+        </div>
+     {%endfor%}
+</div>
+{% endblock %}

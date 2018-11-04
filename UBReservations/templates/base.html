@@ -1,0 +1,54 @@
+{% load static %}
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home - UB Room Reservation</title>
+        <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+    </head>
+    <body class="wide">
+        <div id="page" class="hfeed site">
+            <header>
+                <div class="header">
+                    <div class="main-head-wrap inner-wrap clearfix">
+                        <div id="header-logo-image">
+                            <a href="/">
+                                <img src="{%static 'images\logo.png' %}" alt="">
+                            </a>
+                        </div>
+                        <div id="header-text" class="">
+                            <h1 id="site-title">
+                                <a href="/" title="UB Room Reservation" rel="home">UB Room Reservation</a>
+                            </h1>
+                            <p>From Single Study Rooms to Large Conference Rooms</p>
+                        </div>
+                           </div>
+                       <div id="mySidenav" class="sidenav">
+                        <a href="admin" id="login"><input id="login" name="login" type="button" value="Login"></a>
+                        <a href="#" id="register"><input id="Register" name="register" type="button" value="Register"></a>
+                        <a href="contact" id="contact">Contact</a>
+                    </div>
+                    </div>
+                    <img src="{% static 'images\header.jpg'%}" alt="UB Room Reservation System" width="500" height="100">
+                </div>
+            </header>
+            <div class="main-wrapper">
+                <div class="single-page clearfix">
+                    <div class="inner-wrap">
+                        <p>Reservations available from Study Rooms to Latest Technology Conference Rooms.</p>
+                        <hr>
+                        <div>
+                        {% block content %}
+                        {% endblock %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="colophon">
+                <div class="inner-wrap">
+                   UB Room Reservation System
+                </div>
+            </footer>
+        </div>
+       <script src="{%static 'main.js' %}"></script>
+    </body>
+</html>

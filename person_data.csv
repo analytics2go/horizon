@@ -1,0 +1,6 @@
+personid,firstname,middlename,lastname,email,persontype,reservation
+1,Jane,A,Doe,janedoe@gmail.com,S,1231
+2,Bill,X,Wright,bwright@gmail.com,O,2322
+3,Angel,B,Dawson,abdawson@my.bridgeport.edu,S,5969
+4,George,,White,gwhite@live.com,F,4522
+5,Celia,A,Cruz,celiaacruz@cuba.org,O,8732
